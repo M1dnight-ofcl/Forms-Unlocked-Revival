@@ -17,13 +17,17 @@
   "permissions": ["activeTab", "tabs", "contextMenus"],
   "content_scripts": [
     {
+      "resources": ["lib/fa/webfonts/*"],
       "matches": [
         "https://docs.google.com/forms/u*",
         "https://docs.google.com/forms/d/e*",
         "https://chat.openai.com/*"
       ],
-      "js": ["content.js"],
-      "css": ["content.css"]
+      "js": [
+        "content.js",
+        "lib/jquery.js"
+      ],
+      "css": ["content.css","lib/fa/css/all.min.css"]
     }
   ],
   "app": {
