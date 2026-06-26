@@ -1,15 +1,15 @@
 # todo
-- move to wxt - [ref](https://wxt.dev/guide/installation.html)
-  - use typescript - [ref](https://wxt.dev/guide/essentials/config/typescript.html)
+- (DONE) move to wxt - [ref](https://wxt.dev/guide/installation.html)
+  - (DONE) use typescript - [ref](https://wxt.dev/guide/essentials/config/typescript.html)
   - libraries
-    - use react for component state system
-    - use scss for styling - [ref](https://www.google.com/search?q=using+scss+with+a+chroem+extension+content+script&rlz=1CADTIH_enUS1220&oq=using+scss+with+a+chroem+extension+content+script&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEDSAQg4MjQ1ajBqMagCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)
+    - (DONE) use react for component state system
+    - (DONE) use scss for styling - [ref](https://www.google.com/search?q=using+scss+with+a+chroem+extension+content+script&rlz=1CADTIH_enUS1220&oq=using+scss+with+a+chroem+extension+content+script&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEDSAQg4MjQ1ajBqMagCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)
     - add fontawesome icons
-    - use motion for animation
+    - (DONE) use motion for animation
     - use base ui for functionality
-  - try migrating to manifest v3
-    - properly implement background scripts with communication from content script
-    - inject react dom using entrypoint
+  - (DONE) try migrating to manifest v3
+    - (DONE) properly implement background scripts with communication from content script
+    - (DONE) inject react dom using entrypoint
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
